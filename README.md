@@ -1,24 +1,47 @@
-# Brunch + Inferno + Babel/ES6
+# Reddit Client with Inferno, Redux and Brunch
 
-This is a modern JS skeleton with Inferno for Brunch. Includes `inferno` and `inferno-component` packages.
+A stupid simple reddit client using Inferno, Redux and Brunch. This example was inspired by the [react-redux reddit example](http://redux.js.org/docs/advanced/ExampleRedditAPI.html).
 
-## Installation
+## Run the app:
 
-Clone this repo manually or use `brunch new your-project -s inferno`.
+```
+npm start
+```
 
-## Getting started
+## Build for production:
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on macOS
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history) on port `3333`.
-    * `npm run prod` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
-	* [Inferno site](https://infernojs.org), [Getting started guide](https://infernojs.org/docs/guides/getting-started)
+```
+npm run prod
+```
 
-Make sure you have the latest version of brunch. Creating a new inferno project with brunch is supported since `brunch@v2.10.0`.
+## References:
+
+* [Inferno](https://infernojs.org)
+* [Redux](http://redux.js.org)
+* [Inferno-redux](https://infernojs.org/docs/api/inferno-redux)
+* [Brunch](http://brunch.io)
+* [Brunch with Inferno](https://github.com/infernojs/brunch-with-inferno)
+
+## Lincence
+
+MIT License
+
+Copyright (c) 2017 Rafael Kallis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
