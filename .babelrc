@@ -1,0 +1,9 @@
+{
+    "presets": ["latest"],
+    "plugins": [
+        "inferno",
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        "transform-runtime"
+    ]
+}

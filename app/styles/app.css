@@ -1,0 +1,36 @@
+* {
+	font-family: arial, sans-serif;
+}
+
+.post {
+	height: 75px;
+	width: 100%;
+	background-color: #f9f9f9;
+	margin: 5px;
+	border-radius: 5px;
+	display: flex;
+}
+
+.score {
+	font-size: 1.5em;
+	width: 75px;
+	align-self: center;
+	text-align: center;
+	color: #a0a0a0;
+}
+
+.post-content {
+	align-self: center;
+}
+
+.title {
+	color: #e60022;
+	margin: 0;
+	height: 1.3em;
+	overflow: hidden;
+}
+
+.comments {
+	color: #e60022;
+	font-weight: bold;
+}
